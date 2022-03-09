@@ -1,6 +1,6 @@
 # strapi-provider-upload-qiniu-cloud
 
-## now strapi upload version 4.0.0, the plugin config is different.
+## now strapi update version 4.0.0, the plugin config is different.
 
 **Example strapi V4.0**
 
@@ -48,10 +48,10 @@ module.exports = ({ env }) => ({
         zone: "Zone_z0", // change
         uploadURL: "https://upload.qiniup.com", // change
         mac: {
-          accessKey: "O8Fz8-T2G3Vo3dP66n-icCI-KQweiDtvSkXjBWy9", // change
-          secretKey: "72gZFUmxX-xmRGnsmBJ_OzeYg-asFos_BxF-HJZD", // change
+          accessKey: "", // change
+          secretKey: "", // change
         },
-        baseURL: "https://img.lianwifi.com", // change
+        baseURL: "", // change
         // https://developer.qiniu.com/kodo/manual/1206/put-policy
         putPolicy: {
           all: qiniuPutPolicyAll,
